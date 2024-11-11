@@ -20,7 +20,7 @@ public class WeatherService {
     @Autowired
     private RestTemplate restTemplate;
 
-    private static final String OPENWEATHER_API_KEY = "bdf095fa411eee280991c131a2d6cab7";
+    private static final String OPENWEATHER_API_KEY = "Enter Api key";
     private static final String GEOCODING_API_URL = "http://api.openweathermap.org/geo/1.0/zip?zip=%s,IN&appid=" + OPENWEATHER_API_KEY;
     private static final String WEATHER_API_URL = "https://api.openweathermap.org/data/2.5/weather?lat=%s&lon=%s&appid="+OPENWEATHER_API_KEY;
   
